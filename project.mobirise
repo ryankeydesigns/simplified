@@ -66,11 +66,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Welcome to Simplified Academy",
+        "title": "Welcome to Simplified Academy | simplified-academy.com",
         "meta_descr": "Although the name Simplified Academy sounds a bit new to some, however, we're not entirely new. We've been in the training and learning industry for almost 15 years accumulatively.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/simplified-680x355.jpg"
       },
       "components": [
         {

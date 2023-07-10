@@ -685,11 +685,12 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-sFCw1qGFAI .navbar-dropdown {
-  position: relative !important;
+.cid-sFCw1qGFAI {
+  z-index: 1000;
+  width: 100%;
 }
-.cid-sFCw1qGFAI .navbar-dropdown {
-  position: absolute !important;
+.cid-sFCw1qGFAI nav.navbar {
+  position: fixed;
 }
 .cid-sFCw1qGFAI .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1005,6 +1006,7 @@ a {
 }
 .cid-sFCw1qGFAI .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sFCw1qGFAI a.nav-link {
   display: flex;
@@ -1032,6 +1034,33 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-tJAx30IjdO {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/our-team-asian-businessmen-believe-doing-business-1.jpg");
+}
+.cid-tJAx30IjdO .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tJAx30IjdO .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tJAx30IjdO .mbr-section-title {
+  color: #ffffff;
+}
+.cid-tJAx30IjdO .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-tJAx30IjdO .mbr-text,
+.cid-tJAx30IjdO .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-sFzxmVl7J6 {
   padding-top: 8rem;
@@ -2251,11 +2280,12 @@ a {
     text-align: center;
   }
 }
-.cid-tJAfEnmROI .navbar-dropdown {
-  position: relative !important;
+.cid-tJAfEnmROI {
+  z-index: 1000;
+  width: 100%;
 }
-.cid-tJAfEnmROI .navbar-dropdown {
-  position: absolute !important;
+.cid-tJAfEnmROI nav.navbar {
+  position: fixed;
 }
 .cid-tJAfEnmROI .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -2571,6 +2601,7 @@ a {
 }
 .cid-tJAfEnmROI .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-tJAfEnmROI a.nav-link {
   display: flex;
